@@ -14,7 +14,7 @@
 
 ## 코딩 테스트 대비
 * 매 주 문제 두개로 시작해서 풀어봅시다.
-* 문제 선정은 [솔브드](_https://solved.ac/_) 혹은 [프로그래머스](_https://programmers.co.kr_)에서 하나씩
+* 문제 선정은 [솔브드](_https://solved.ac/_) 혹은 [프로그래머스](_https://programmers.co.kr_)에서 
 * 언어는 각자 선택
 	* Python: 형주, 상수, 대민
 	* C++: 상수
