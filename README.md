@@ -44,8 +44,8 @@
 ### 로드맵
 * ~~[스프링 핵심 원리 - 기본편](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8) (완료)~~
 * ~~[모든 개발자를 위한 HTTP 웹 기본 지식](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC) (완료)~~
-* [**스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술**](_https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1_) (**진행중**)
-* [스프링 MVC 2편 - 백엔드 웹 개발 활용 기술](_https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-2_)
+* [스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술](_https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1_) 
+* [**스프링 MVC 2편 - 백엔드 웹 개발 활용 기술**](_https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-2_) (**진행중**)
 * [스프링 DB 1편 - 데이터 접근 핵심 원리](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-1)
 * [스프링 DB 2편 - 데이터 접근 활용 기술](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-2)
 * [스프링 핵심 원리 - 고급편](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8)
@@ -53,14 +53,24 @@
 
 ### 진행 상황
 * 2023년 4월 12일 기준
-* **스프링 MVC 1편 - 챕터 5** 까지 진행
+* **스프링 MVC 2편 - 챕터 3** 까지 진행
 
-### 스터디 내용 공유
-* `spring-study` 폴더 내에 저장
-  * `spring-basic` 스프링 기본편
-  * `http-basic` 모든 개발자를 위한 HTTP 웹 기본 지식
-  * `spring-mvc-1` 스프링 MVC 1편
-  * `spring-mvc-2` 스프링 MVC 2편
+### 업로드 규칙
+* 스프링 스터디 자료들은 `/spring-study` 폴더 내에 저장합니다.
+  * `/spring-core-basic` 스프링 핵심 기본편
+  * `/http-basic` 모든 개발자를 위한 HTTP 웹 기본 지식
+  * `/spring-mvc-1` 스프링 MVC 1편
+  * `/spring-mvc-2` 스프링 MVC 2편
+  * `/spring-db-1` 스프링 DB 1편
+  * `/spring-db-2` 스프링 DB 2편
+  * `/spring-core-advanced` 스프링 핵심 심화편
+  * `/spring-boot` 스프링 부트
+* 파일명은 `kebab-case`로 명명합니다.
+  * {챕터}.{챕터명}.md로 업로드 해주세요.
+  * ex) `05.spring-mvc-basic.md`
+* 메인 브랜치를 그대로 푸쉬하지 말아주세요. 
+* 문서 내부에서 필요한 이미지들은 `/spring-study/images` 에 업로드 부탁드립니다.
+
 ## 코딩 테스트 대비
 ### 개요
 백준 [단계별로 풀어보기](https://www.acmicpc.net/step)의 **시간 복잡도** 단계부터 순차적으로 해결합니다.
@@ -77,8 +87,13 @@
 	| C/C++  | 상수  							 |
 	| Java 	 | 유빈 							 |
 
-### 스터디 내용 공유
-* `coding-test` 폴더 내에 저장
+### 업로드 규칙
+* `/coding-test` 폴더 내에 저장합니다.
+* [단계벌로 풀어보기](https://www.acmicpc.net/step) 페이지 기준으로 폴더를 구성합니다.
+  * 하위 폴더는 {단계}.{단계 이름} 으로 합니다.
+  * ex) `/19.stack`
+  * 문제 풀이는 `{문제 번호}_{언어}.md`로 명명합니다. `/coding-test/19.stack/10828_py.md`
+* 위 링크에 구분이 안 되어있는 문제의 경우 `/coding-test` 폴더에 업로드합니다.
 
 ### 진행 상황
 * 2023년 4월 12일 기준
